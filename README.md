@@ -28,10 +28,30 @@ Simulation on Image
 This image illustrates the model's performance in capturing and extracting license plate information from a still frame. The bounding boxes highlight the detected license plates, and subsequent character recognition provides accurate results.
 
 How to Use:
+Follow these steps to seamlessly utilize the Automatic Number Plate Recognition (ANPR) system using YOLOv8 with the argparse module for flexible input handling:
 
-Clone this repository to your local system.
-Install the required dependencies by running pip install -r requirements.txt.
-Run the main.py script to test the model with new images or videos.
+1. Clone this repository to your local system.
+   Begin by cloning this repository to your local machine using the following command:
+   '''
+   git clone https://github.com/your-username/your-repository.git
+   '''
+2. Install the required dependencies
+   Navigate to the project directory and install the required dependencies using the following command:
+   '''
+   pip install -r requirements.txt
+   '''
+3. Run the ANPR System:
+   -Execute the main.py script with the argparse arguments to customize the behavior of the ANPR system. Here are the available arguments:
+     * --source: Specifies the source of input data, either a video or an image.
+     * --save: An optional flag to indicate whether to save the results of license plate identification. Use this flag without any value to enable saving.
+     * --video: A flag indicating that the input data is of video type.
+     * --stream: A flag indicating that the results of license plate identification will be displayed in real-time.
+     * --conf: An input argument to set the confidence threshold for object detection, with values ranging from 0 to 1.
+     
+   -Example Used:
+    '''
+    python main.py --source path/to/your/video_or_image --save --video --stream --conf 0.7
+    '''
 Note:
 Ensure you have a suitable GPU to enhance the detection speed using YOLOv8.
 
