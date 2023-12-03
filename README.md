@@ -42,11 +42,11 @@ Follow these steps to seamlessly utilize the Automatic Number Plate Recognition 
    ```
 3. Run the ANPR System: <br/>
    -Execute the main.py script with the argparse arguments to customize the behavior of the ANPR system. Here are the available arguments:<br/>
-     * --source: Specifies the source of input data, either a video or an image.
-     * --save: An optional flag to indicate whether to save the results of license plate identification. Use this flag without any value to enable saving.
-     * --video: A flag indicating that the input data is of video type.
-     * --stream: A flag indicating that the results of license plate identification will be displayed in real-time.
-     * --conf: An input argument to set the confidence threshold for object detection, with values ranging from 0 to 1.
+     * --source    : Specifies the source of input data, either a video or an image.
+     * --save      : An optional flag to indicate whether to save the results of license plate identification. Use this flag without any value to enable saving.
+     * --video     : A flag indicating that the input data is of video type.
+     * --stream    : A flag indicating that the results of license plate identification will be displayed in real-time.
+     * --conf      : An input argument to set the confidence threshold for object detection, with values ranging from 0 to 1.
      
    -Example Used: <br/>
     ```bash
