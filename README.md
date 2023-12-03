@@ -32,12 +32,12 @@ Follow these steps to seamlessly utilize the Automatic Number Plate Recognition 
 
 1. Clone this repository to your local system. <br/>
    Begin by cloning this repository to your local machine using the following command:
-   ```python
+   ```bash
    git clone https://github.com/Zackly23/YOLOV8_IND_ANPR.git
    ```
 2. Install the required dependencies. <br/>
    Navigate to the project directory and install the required dependencies using the following command:<br/>
-   ```python
+   ```bash
    pip install -r requirements.txt
    ```
 3. Run the ANPR System: <br/>
@@ -49,7 +49,7 @@ Follow these steps to seamlessly utilize the Automatic Number Plate Recognition 
      * --conf: An input argument to set the confidence threshold for object detection, with values ranging from 0 to 1.
      
    -Example Used: <br/>
-    ```python
+    ```bash
     python main.py --source path/to/your/video_or_image --save --video --stream --conf 0.7
     ```
 Note:
