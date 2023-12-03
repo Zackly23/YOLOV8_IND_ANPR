@@ -19,4 +19,6 @@ Get involved and contribute to the advancement of automatic number plate recogni
 
 Happy Coding and Recognition! 🚗🔍
 
+![ezgif com-video-to-gif](https://github.com/Zackly23/YOLOV8_IND_ANPR/assets/65446701/060d0b25-6663-442b-999b-6449a47e825d)
+
 Note: Don't forget to check out the Wiki section for detailed guides and additional resources.
