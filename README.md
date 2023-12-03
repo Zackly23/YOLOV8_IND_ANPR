@@ -1,24 +1,41 @@
 # YOLOV8_IND_ANPR
 Welcome to our Automatic Number Plate Recognition (ANPR) repository, powered by YOLOv8! This open-source project focuses on leveraging the state-of-the-art YOLOv8 (You Only Look Once) object detection framework to achieve efficient and accurate license plate recognition in images and videos.
 
-Features:
+## Automatic Number Plate Recognition (ANPR) using YOLOv8
 
-1. **YOLOv8 Integration:** We have seamlessly integrated YOLOv8 into our ANPR system, harnessing its real-time object detection capabilities to identify and extract license plates from diverse visual data.
+This project implements an Automatic Number Plate Recognition (ANPR) system using YOLOv8, a powerful and efficient object detection model. ANPR technology enables automatic recognition of vehicle license plates from images or videos, with applications ranging from public security to traffic monitoring and parking management.
 
-2. **Efficient Training and Inference:** Our repository provides tools and scripts for training the ANPR model with your custom dataset. Achieve fast and accurate inference for license plate recognition, making it suitable for both real-time applications and batch processing.
+Main Features:
 
-3. **Flexibility:** The modular design of our ANPR system allows for easy customization. Adapt the solution to your specific needs, whether it be different regions, plate formats, or deployment environments.
+Automatic License Plate Detection: Utilizes YOLOv8 to automatically detect and extract license plates from images or videos.
+Character Segmentation: Separates individual characters on the license plate to facilitate character recognition.
+Character Recognition: Employs Optical Character Recognition (OCR) techniques to recognize the characters on the license plate.
+Interactive and User-Friendly: Provides a user-friendly interface for testing the model with new images or videos.
 
-4. **Pre-trained Models:** Jumpstart your project with our pre-trained YOLOv8 models specifically trained for license plate recognition. Fine-tune as needed or use them out of the box for quick integration.
+Example Simulations:
+Below are visual representations of the ANPR model in action, showcasing its ability to accurately detect and recognize license plates in various scenarios.
 
-5. **Documentation:** A comprehensive set of documentation guides you through setting up, training, and deploying the ANPR system. Whether you're a seasoned developer or new to ANPR, our documentation provides the necessary resources to get started.
+Simulation on Video:
 
-6. **Community Support:** Join our active community of developers, researchers, and enthusiasts. Share your experiences, ask questions, and collaborate to further enhance the capabilities of our ANPR solution.
+![ezgif com-video-to-gif](https://github.com/Zackly23/YOLOV8_IND_ANPR/assets/65446701/10caae53-3356-48b8-9329-b03d456fa57e)
 
-Get involved and contribute to the advancement of automatic number plate recognition using YOLOv8. Clone the repository, experiment with the code, and let's collectively drive innovation in this exciting field.
+Here the ANPR system successfully identifies license plates from moving vehicles. The real-time detection capabilities of YOLOv8 ensure efficient processing even in dynamic environments
 
-Happy Coding and Recognition! 🚗🔍
+Simulation on Image
 
-![ezgif com-video-to-gif](https://github.com/Zackly23/YOLOV8_IND_ANPR/assets/65446701/060d0b25-6663-442b-999b-6449a47e825d)
+![output_sample](https://github.com/Zackly23/YOLOV8_IND_ANPR/assets/65446701/b2ee34be-570b-4624-9787-d462b3524695)
 
-Note: Don't forget to check out the Wiki section for detailed guides and additional resources.
+This image illustrates the model's performance in capturing and extracting license plate information from a still frame. The bounding boxes highlight the detected license plates, and subsequent character recognition provides accurate results.
+
+How to Use:
+
+Clone this repository to your local system.
+Install the required dependencies by running pip install -r requirements.txt.
+Run the main.py script to test the model with new images or videos.
+Note:
+Ensure you have a suitable GPU to enhance the detection speed using YOLOv8.
+
+Contributions and Issues:
+Contributions and issue reports are highly appreciated. Feel free to open new issues or submit pull requests to enhance this project.
+
+Thank you for exploring the ANPR project using YOLOv8! We hope this project proves valuable to the community and anyone interested in automatic license plate identification.
