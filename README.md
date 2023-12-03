@@ -32,14 +32,14 @@ Follow these steps to seamlessly utilize the Automatic Number Plate Recognition 
 
 1. Clone this repository to your local system. <br/>
    Begin by cloning this repository to your local machine using the following command:
-   '''
+   ```python
    git clone https://github.com/your-username/your-repository.git
-   '''
+   ```
 2. Install the required dependencies. <br/>
    Navigate to the project directory and install the required dependencies using the following command:<br/>
-   '''
+   ```python
    pip install -r requirements.txt
-   '''
+   ```
 3. Run the ANPR System: <br/>
    -Execute the main.py script with the argparse arguments to customize the behavior of the ANPR system. Here are the available arguments:<br/>
      * --source: Specifies the source of input data, either a video or an image.
