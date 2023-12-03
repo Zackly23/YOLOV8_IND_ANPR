@@ -49,9 +49,9 @@ Follow these steps to seamlessly utilize the Automatic Number Plate Recognition 
      * --conf: An input argument to set the confidence threshold for object detection, with values ranging from 0 to 1.
      
    -Example Used: <br/>
-    '''python
+    ```python
     python main.py --source path/to/your/video_or_image --save --video --stream --conf 0.7
-    '''
+    ```
 Note:
 Ensure you have a suitable GPU to enhance the detection speed using YOLOv8.
 
