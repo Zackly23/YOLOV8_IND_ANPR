@@ -33,7 +33,7 @@ Follow these steps to seamlessly utilize the Automatic Number Plate Recognition 
 1. Clone this repository to your local system. <br/>
    Begin by cloning this repository to your local machine using the following command:
    ```python
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Zackly23/YOLOV8_IND_ANPR.git
    ```
 2. Install the required dependencies. <br/>
    Navigate to the project directory and install the required dependencies using the following command:<br/>
