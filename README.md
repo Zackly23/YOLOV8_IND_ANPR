@@ -1,5 +1,5 @@
 # YOLOV8_IND_ANPR
-Welcome to our Automatic Number Plate Recognition (ANPR) repository, powered by YOLOv8! This open-source project focuses on leveraging the state-of-the-art YOLOv8 (You Only Look Once) object detection framework to achieve efficient and accurate license plate recognition in images and videos.
+Welcome to my Automatic Number Plate Recognition (ANPR) repository, powered by YOLOv8! This open-source project focuses on leveraging the state-of-the-art YOLOv8 (You Only Look Once) object detection framework to achieve efficient and accurate license plate recognition in images and videos.
 
 ## Automatic Number Plate Recognition (ANPR) using YOLOv8
 
@@ -19,7 +19,7 @@ Simulation on Video:
 
 ![ezgif com-video-to-gif](https://github.com/Zackly23/YOLOV8_IND_ANPR/assets/65446701/10caae53-3356-48b8-9329-b03d456fa57e)
 
-Here the ANPR system successfully identifies license plates from moving vehicles. The real-time detection capabilities of YOLOv8 ensure efficient processing even in dynamic environments
+Here the ANPR system successfully identifies license plates from video. The real-time detection capabilities of YOLOv8 ensure efficient processing even in dynamic environments
 
 Simulation on Image
 
